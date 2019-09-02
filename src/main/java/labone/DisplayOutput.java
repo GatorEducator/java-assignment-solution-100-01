@@ -22,12 +22,12 @@ public class DisplayOutput {
    **/
   public static void main(String[] args) {
 
-    // display the date
+    // display the date using the Date constructor
     System.out.println("Gregory M. Kapfhammer " + new Date());
     // display three insightful lines
-    System.out.println("Hello world.");
-    System.out.println("Gradle is great.");
-    System.out.println("Travis is tremendous.");
+    System.out.println("Hello World.");
+    System.out.println("Gradle is Great.");
+    System.out.println("Docker is Dynamite.");
 
   }
 
