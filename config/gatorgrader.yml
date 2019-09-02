@@ -26,13 +26,15 @@ src/main:
 writing/reflection.md:
     mdl
     ConfirmFileExists
-    MatchFileFragment --fragment "Add Your Name Here" --count 0 --exact
-    CountFileParagraphs --count 2 --exact
     CountFileWords --count 200
+    CountMarkdownTags --tag "heading" --count 4 --exact
+    CountMarkdownTags --tag "code_block" --count 1 --exact
+    MatchFileFragment --fragment "Add Your Name Here" --count 0 --exact
 
 # --> check that the number of commits is beyond a threshold
 CountCommits --count 10
 
 # --> check that the program executes correctly and produces exactly 4 lines of output
+ExecuteCommand --command "gradle build"
 ExecuteCommand --command "gradle -q --console plain run"
 CountCommandOutput --command "gradle -q --console plain run" --count 4 --exact
