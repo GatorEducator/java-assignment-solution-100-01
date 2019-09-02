@@ -4,8 +4,13 @@ break: true
 indent: 4
 revision: feature/use-linters-plugins
 ---
+
+# Reminders:
+# --> a check without an "--exact" the check is an "at least"
+# --> checks below a file in a directory are for that specific content
+# --> checks that appear stand-alone are for an entire repository
+
 # --> check the source code for various characteristics
-# note that without an "--exact" the check is an "at least"
 src/main:
     java:
         labone/DisplayOutput.java:
@@ -13,8 +18,8 @@ src/main:
             CountSingleLineComments --language Java --count 2
             CountMultipleLineComments --language Java --count 2
             MatchFileFragment --fragment "TODO" --count 0 --exact
-            # --fragment "println(" --count 4 --exact
-            # --fragment "new Date(" --count 1 --exact
+            MatchFileFragment --fragment "new Date()" --count 1 --exact
+            MatchFileRegex --regex 'println\("(.)*"\)' --count 0 --exact
 
 # --> check the technical writing
 # mdl is a Markdown linting tool
@@ -22,12 +27,12 @@ writing/reflection.md:
     mdl
     ConfirmFileExists
     MatchFileFragment --fragment "Add Your Name Here" --count 0 --exact
-    # --paragraphs 1 --exact
-    # --words 200
+    CountFileParagraphs --count 2 --exact
+    CountFileWords --count 200
 
-# --> check the number of commits beyond a threshold
+# --> check that the number of commits is beyond a threshold
 CountCommits --count 10
 
-# --> check that the program executes correctly and produces 4 lines of output
+# --> check that the program executes correctly and produces exactly 4 lines of output
 ExecuteCommand --command "gradle -q --console plain run"
 CountCommandOutput --command "gradle -q --console plain run" --count 4 --exact
