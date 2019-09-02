@@ -18,17 +18,16 @@ src/main:
 
 # --> check the technical writing
 # mdl is a Markdown linting tool
-# proselint checks writing for common mistakes
 writing/reflection.md:
+    mdl
     ConfirmFileExists
-    # mdl
-    # proselint
+    MatchFileFragment --fragment "Add Your Name Here" --count 0 --exact
     # --paragraphs 1 --exact
     # --words 200
 
 # --> check the number of commits beyond a threshold
 CountCommits --count 10
 
-# --> check that the program executes and produces 4 lines of output
+# --> check that the program executes correctly and produces 4 lines of output
 ExecuteCommand --command "gradle -q --console plain run"
 CountCommandOutput --command "gradle -q --console plain run" --count 4 --exact
