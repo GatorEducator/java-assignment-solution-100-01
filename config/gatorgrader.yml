@@ -19,7 +19,7 @@ src/main:
             CountMultipleLineComments --language Java --count 2
             MatchFileFragment --fragment "TODO" --count 0 --exact
             MatchFileFragment --fragment "new Date()" --count 1 --exact
-            MatchFileRegex --regex 'println\("(.)*"\)' --count 0 --exact
+            MatchFileRegex --regex "println\((.)*\)" --count 1 --exact
 
 # --> check the technical writing
 # mdl is a Markdown linting tool
