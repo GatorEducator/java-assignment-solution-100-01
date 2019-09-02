@@ -99,6 +99,26 @@ you have questions about any of these reading assignments.
 
 ## Commands
 
+### Docker
+
+Execute the following `docker run` command to start `gradle grade` as a
+containerized application.
+
+```bash
+docker run --rm --name dockagator \
+  -v "$(pwd)":/project \
+  -v "$HOME/.gatorgrader":/root/.local/share \
+  gatoreducator/dockagator
+```
+
+This will use `"$(pwd)"` (the current directory) as the project directory and
+`"$HOME/.dockagator"` as the cached GatorGrader directory; both directories
+must exist, although only the project directory must contain something. The
+cache directory should not contain anything other than directories and programs
+created by DockaGator, otherwise they may be overridden. To create the directory
+given here (so that this exact command will work),
+execute `mkdir $HOME/.dockagator`.
+
 To get started in using the GatorGrader tool, you can change into the directory
 for this assignment and type the command `gradle grade` in your terminal.
 Running this command will produce a lot of output that you should carefully
