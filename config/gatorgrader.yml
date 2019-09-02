@@ -27,8 +27,10 @@ writing/reflection.md:
     mdl
     ConfirmFileExists
     CountFileWords --count 200
-    CountMarkdownTags --tag "heading" --count 4 --exact
+    CountMarkdownTags --tag "heading" --count 5 --exact
+    CountMarkdownTags --tag "code" --count 3 --exact
     CountMarkdownTags --tag "code_block" --count 1 --exact
+    CountMarkdownTags --tag "list" --count 1 --exact
     MatchFileFragment --fragment "Add Your Name Here" --count 0 --exact
 
 # --> check that the number of commits is beyond a threshold
