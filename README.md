@@ -119,6 +119,14 @@ created by DockaGator, otherwise they may be overridden. To create the directory
 given here (so that this exact command will work),
 execute `mkdir $HOME/.dockagator`.
 
+On Windows you need to run:
+
+```
+docker run --rm --name dockagator -v "$(pwd):/project" -v "$HOME/.dockagator:/root/.local/share" gatoreducator/dockagator
+```
+
+Note that this command has the quote marks in a different location.
+
 To get started in using the GatorGrader tool, you can change into the directory
 for this assignment and type the command `gradle grade` in your terminal.
 Running this command will produce a lot of output that you should carefully
