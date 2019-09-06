@@ -11,10 +11,10 @@ revision: feature/use-linters-plugins
 # Learn more about GatorGrader and its supported checks by visiting this web site:
 # https://github.com/GatorEducator/gatorgrader
 
-# Reminders:
-# --> a check without an "--exact" the check is an "at least"
-# --> checks below a file in a directory are for that specific content
-# --> checks that appear stand-alone are for an entire repository
+# Explanation:
+# --> a check without an "--exact" runs a count for an entity as an "at least"
+# --> checks below a file in a specified directory are for that specific file and directory
+# --> checks that appear stand-alone are for an entire Git repository
 
 # --> check the source code for various characteristics
 src/main:
@@ -27,7 +27,7 @@ src/main:
             MatchFileFragment --fragment "new Date()" --count 1 --exact
             MatchFileRegex --regex "println\((.)*\)" --count 1 --exact
 
-# --> check the technical writing
+# --> check the technical writing for various characteristics
 writing/reflection.md:
     ConfirmFileExists
     CountFileWords --count 300
@@ -37,7 +37,7 @@ writing/reflection.md:
     CountMarkdownTags --tag "list" --count 1 --exact
     MatchFileFragment --fragment "Add Your Name Here" --count 0 --exact
 
-# --> check that the number of commits is beyond a threshold
+# --> check that the number of commits in the Git repository is beyond a threshold
 CountCommits --count 10
 
 # --> check that the program executes correctly and produces exactly 4 lines of output
@@ -50,5 +50,5 @@ CountCommandOutput --command "gradle -q --console plain run" --count 4 --exact
 # Hello World.
 # Gradle is Great.
 # Docker is Dynamite.
-# Note: the check's focus is on the three lines after the name and the date
+# Note: this check's focus is on the three lines after the name and the date
 MatchCommandRegex --command "gradle -q --console plain run" --count 1 --regex "Hello\s+\w+\.(\n)Gradle(\s+\w+)*\.(\n)Docker(\s+\w+)*\." --exact
