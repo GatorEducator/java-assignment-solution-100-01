@@ -1,29 +1,23 @@
 <!---
 
-TASK LIST:
+GatorGrader example that contains a solution to a Java programming:
+https://github.com/GatorEducator/java-assignment-solution-100-01
 
-  * Use cp -rf *.* to copy all of the files and directories in this repository
-    to the starter repository for this assignment
-  * Change into the directory for the starer repository
-  * Update the header (e.g., #) to only give the name of the assignment
-  * Update the first paragraph to include the commented-out content
-  * Change the link in the # Problems section to point to this lab's starter
-  * Create the assignment in the GitHub Classroom, noting the URL
-  * Test the assignment by accepting it with your own GitHub account
-  * Check to ensure that your GitHub repository is created correctly
-  * Share the assignment link with all of the students using email or Slack
+This is "starter" companion repository (i.e., the repository given to students):
+https://github.com/GatorEducator/java-assignment-starter-100-01
 
-PROBLEMS?
+Learn more about GatorGrader and its supported checks by visiting this web site:
+https://github.com/GatorEducator/gatorgrader
 
-  * Contact Gregory M. Kapfhammer by email or Slack
-  * Raise an issue in the GitHub repository for this assignment
+Problems? Raise an issue in the issue tracker for this assignment!
 
 -->
 
-# cs100-F2018-lab1-solution
+# java-assignment-java-assignment-solution-100-01
 
 Designed for use with [GitHub Classroom](https://classroom.github.com/), this
-repository contains the solution for Laboratory 1 in Computer Science 100.
+repository contains the solution for a laboratory assignment in an introductory
+computer science class that uses the Java programming language.
 
 <!---
 
@@ -33,7 +27,7 @@ repository contains the solution for Laboratory 1 in Computer Science 100.
  requirements for the assignment, thus causing a &#x2714; to instead appear in
  the commit logs.
 
---->
+-->
 
 ## Introduction
 
