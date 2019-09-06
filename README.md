@@ -163,27 +163,28 @@ BUILD SUCCESSFUL in 0s
 2 actionable tasks: 1 executed, 1 up-to-date
 ```
 
-## Checks
+## Automated Checks with GatorGrader
 
 In addition to meeting all of the requirements outlined in the assignment sheet,
 your submission must pass the following checks:
 
-- labone/DisplayOutput.java:
-  - Features at least two single-line comments
-  - Features at least two multiple-line comments
-  - Contains exactly four uses of a `println(` statement
-  - Contains exactly one use of a `new Date(` statement
-  - Runs correctly without crashing or producing an error
-  - Produces exactly four lines of output in the terminal
-
-- writing/reflection.md:
-  - Passes the checks performed by the Markdown linting tool
-  - Passes the checks performed by the proselint linting tool
-  - Contains exactly one contiguous paragraph of formatted text
-  - The contiguous paragraph contains at least 200 words
-
-- GitHub repository:
-  - Contains five commits beyond the repository's starting number of commits
+- The DisplayOutput.java in src/main/java/labone has at least 2 multiple-line Java comment(s)
+- The DisplayOutput.java in src/main/java/labone has at least 2 single-line Java comment(s)
+- The DisplayOutput.java in src/main/java/labone has exactly 0 of the `TODO` fragment
+- The DisplayOutput.java in src/main/java/labone has exactly 1 match(es) of the `println\\((.)*\\)` regular expression
+- The DisplayOutput.java in src/main/java/labone has exactly 1 of the `new Date()` fragment
+- The command `gradle -q --console plain run` executes correctly
+- The command `gradle build` executes correctly
+- The command output has exactly 1 match(es) of the `Hello\\s+\\w+\\.(\\n)Gradle(\\s+\\w+)*\\.(\\n)Docker(\\s+\\w+)*\\.` regular expression
+- The command output has exactly 4 lines
+- The file DisplayOutput.java exists in the src/main/java/labone directory
+- The file reflection.md exists in the writing directory
+- The reflection.md in writing has at least 300 word(s) in total
+- The reflection.md in writing has exactly 0 of the `Add Your Name Here` fragment
+- The reflection.md in writing has exactly 1 of the `code_block` tag
+- The reflection.md in writing has exactly 1 of the `list` tag
+- The reflection.md in writing has exactly 3 of the `code` tag
+- The reflection.md in writing has exactly 6 of the `heading` tag
 
 ## Updates
 
