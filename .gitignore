@@ -157,6 +157,11 @@ Session.vim
 *.tar.gz
 *.rar
 
+# JVM #
+#######
+# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
+hs_err_pid*
+
 # Gradle #
 ##########
 .gradle
@@ -246,3 +251,35 @@ tags.tmp
 *.xmi
 *.sync
 *.jekyll-metadata
+
+# Editor Suggestions #
+######################
+
+# VSCode #
+##########
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# Atom #
+##########
+.DS_Store
+.eslintcache
+Thumbs.db
+.project
+.svn
+.nvm-version
+.vscode
+node_modules
+npm-debug.log
+debug.log
+/tags
+/atom-shell/
+/out/
+docs/output
+docs/includes
+spec/fixtures/evil-files/
+out/
+/electron/
