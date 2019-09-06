@@ -23,7 +23,7 @@ src/main:
             CountSingleLineComments --language Java --count 2
             CountMultipleLineComments --language Java --count 2
             MatchFileFragment --fragment "TODO" --count 0 --exact
-            MatchFileFragment --fragment "Add Your Name" --count 0 --exact
+            MatchFileFragment --fragment "Add Your Name Here" --count 0 --exact
             MatchFileFragment --fragment "import java.util.Date" --count 1 --exact
             MatchFileFragment --fragment "new Date()" --count 1 --exact
             MatchFileRegex --regex "println\((.)*\)" --count 1 --exact
