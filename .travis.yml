@@ -47,7 +47,7 @@ before_script:
 # run checks on a student's Markdown writing through GatorGrader
 # Note: "gradle grade" automatically installs GatorGrader and runs all the checks
 # Note: Although "gradle grade" runs in a Docker container,
-# this is not done in CI because Travis CI does not currently suppoort MacOS,
+# this is not done in CI because Travis CI does not currently support MacOS,
 # which would limit the ability to do cross-platform runs of these checks.
 script:
   # lint the assignment's documentation: see .mdlrc for modifications
