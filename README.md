@@ -15,21 +15,28 @@ Problems? Raise an issue in the issue tracker for this assignment!
 
 # java-assignment-java-assignment-solution-100-01
 
-Designed for use with [GitHub Classroom](https://classroom.github.com/), this
-repository contains the solution for a laboratory assignment in an introductory
-computer science class that uses the Java programming language.
-
-<!---
-
- Since the Travis builds for this repository will initially fail (as evidenced by
- a red &#x2717; appearing in the commit logs instead of a green &#x2714;), the
- programmer is responsible for completing all of the steps needed to satisfy the
- requirements for the assignment, thus causing a &#x2714; to instead appear in
- the commit logs.
-
--->
+* [Introduction](#introduction)
+* [Learning](#learning)
+* [Commands](#commands)
+  + [Docker](#docker)
+* [Output](#output)
+* [Automated Checks with GatorGrader](#automated-checks-with-gatorgrader)
+* [Updates](#updates)
+* [Travis](#travis)
+* [Requirements](#requirements)
+* [Problems](#problems)
+* [Assistance](#assistance)
 
 ## Introduction
+
+Designed for use with [GitHub Classroom](https://classroom.github.com/) and
+[GatorGrader](https://github.com/GatorEducator/gatorgrader/), this repository
+contains the solution for a laboratory assignment in an introductory computer
+science class that uses the Java programming language. The Travis CI builds for
+this repository will pass, as evidenced by a green &#x2714; instead of a red
+&#x2717; appearing in the commit logs. An instructor would use this repository
+to create a "starter" repository with missing features that a student would add
+in order to achieve the stated learning objectives.
 
 This assignment requires a programmer to implement and test a Java program,
 called `DisplayOutput`, that will produce four lines of output. The first line
