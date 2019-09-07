@@ -13,7 +13,7 @@ Problems? Raise an issue in the issue tracker for this assignment!
 
 -->
 
-![Image of Logo](.github/gatorgraderlogo.png)
+![Image of Logo](.github/gatorgrader-example-java.png)
 
 <p align="center">
 <b>
