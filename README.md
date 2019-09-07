@@ -90,11 +90,12 @@ before the assignment's due date.
 A carefully formatted assignment sheet for this project provides more details
 about the steps that a computer scientist should take to complete this
 assignment. You can view this assignment sheet by visiting the listing of
-laboratories on the course web site. Please pay attention to the icons in the
-left-hand margin of the assignment sheet as they will help you to understand
-what steps you should take at key parts of the assignment.
+laboratories on the course web site created by the course instructor. Please pay
+attention to the icons in the left-hand margin of the assignment sheet as they
+will help you to understand what steps you should take at key parts of the
+assignment.
 
-## Learning
+## Continuous Learning
 
 If you have not done so already, please read all of the relevant [GitHub
 Guides](https://guides.github.com/) that explain how to use many of the features
@@ -177,7 +178,7 @@ To run one of these commands, you must be in the main (or "home base") directory
 for this assignment where the `build.gradle` file is located. Then, you can type
 the command in the terminal and study the output.
 
-## Output
+## Program Output
 
 Typing the command `gradle run` in the terminal window produces the following
 output for the instructor's version of `DisplayOutput`. As long as your program
@@ -258,7 +259,7 @@ GitHub. If you do not see either a yellow circle or a green checkmark or a red x
 in your listing of commits, then please ask the instructor to see whether or not
 Travis CI was correctly enabled.
 
-## Requirements
+## Project Requirements
 
 The GatorGrader software that supports the checking of this assignment was
 developed for the following software and versions:
@@ -269,7 +270,7 @@ developed for the following software and versions:
 - Proselint 0.8.0
 - Python 3.6
 
-## Problems
+## Reporting Problems
 
 If you have found a problem with this assignment's provided source code, then
 you can go to the [Computer Science 100 Lab 1
