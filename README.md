@@ -17,7 +17,7 @@ Problems? Raise an issue in the issue tracker for this assignment!
 
 <p align="center">
 <b>
-Automated grading for an assignment on Java programming and technical writing in Markdown
+Automated assessment for an assignment on Java programming and technical writing in Markdown
 </b>
 </p>
 
