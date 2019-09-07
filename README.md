@@ -21,7 +21,6 @@ Automated grading for an assignment on Java programming and technical writing in
 </b>
 </p>
 
-
 # java-assignment-java-assignment-solution-100-01
 
 ## Table of Contents
