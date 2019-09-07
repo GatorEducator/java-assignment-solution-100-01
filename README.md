@@ -13,6 +13,15 @@ Problems? Raise an issue in the issue tracker for this assignment!
 
 -->
 
+![Image of Logo](.github/gatorgraderlogo.png)
+
+<p align="center">
+<b>
+Automated grading for an assignment on Java programming and technical writing in Markdown
+</b>
+</p>
+
+
 # java-assignment-java-assignment-solution-100-01
 
 ## Table of Contents
@@ -98,10 +107,22 @@ Projects on GitHub](https://guides.github.com/features/wikis/). Each of these
 guides will help you to understand how to use both [GitHub](http://github.com) and
 [GitHub Classroom](https://classroom.github.com/).
 
-To do well on this assignment, you should also read Chapters 1 and 2 in the
-course textbook, paying particularly close attention to Sections 1.5 and 2.1.
-Please see the course instructor or one of the teaching assistants or tutors if
-you have questions about any of these reading assignments.
+Students who want to learn more about how to use
+[Docker](https://www.docker.com) should review the [Docker
+Documentation](https://docs.docker.com/). Students are also encouraged to review
+the documentation for their text editor, which is available for text editors
+like [Atom](https://atom.io/docs) and [VS
+Code](https://code.visualstudio.com/docs). You should also review the [Git
+documentation](https://git-scm.com/doc) to learn more about how to use the Git
+command-line client. In addition to talking with the instructor and technical
+leader for your course, students are encouraged to search
+[StackOverflow](https://stackoverflow.com/) for answers to their technical
+questions.
+
+If you are a student working to complete this assignment, you should also read
+Chapters 1 and 2 in the course textbook, paying particularly close attention to
+Sections 1.5 and 2.1. Please see the course instructor or one of the student
+technical leaders if you have questions about any of these reading assignments.
 
 ## Commands
 
