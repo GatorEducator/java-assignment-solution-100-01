@@ -12,10 +12,9 @@ buildscript {
     }
     mavenLocal()
     dependencies {
-      // other options, only needed for local testing:
-      // classpath "org.gatored:gatorgradle:+"
-      // classpath "gradle.plugin.org.gatored:gatorgradle:+"
-      classpath "gradle.plugin.org.gatored:gatorgradle:0.4.4"
+      // other options, only needed for specifying a specific version of Gradle plugin:
+      // classpath "gradle.plugin.org.gatored:gatorgradle:0.4.4"
+      classpath "gradle.plugin.org.gatored:gatorgradle:+"
     }
   }
 }
