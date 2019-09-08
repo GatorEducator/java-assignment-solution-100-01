@@ -312,10 +312,10 @@ you with new source code for this assignment. However, please note that, if you
 have edited the files that the course instructor updated, running the previous
 command may lead to Git merge conflicts. If this happens, you may need to
 manually resolve them with the help of the instructor or a student technical
-leader. Finally, please note that
-[GatorGrader's](https://github.com/GatorEducator/gatorgrader) [Gradle
-plugin](https://github.com/GatorEducator/gatorgradle) automatically downloads
-the newest version of GatorGrader.
+leader. Finally, please note that the [Gradle
+plugin](https://github.com/GatorEducator/gatorgradle) for
+[GatorGrader's](https://github.com/GatorEducator/gatorgrader) will automatically
+download the newest version of GatorGrader.
 
 ## Using Travis CI
 
