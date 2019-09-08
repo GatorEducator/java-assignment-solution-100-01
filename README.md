@@ -84,17 +84,19 @@ initialize a build of your assignment, checking to see if it meets all of the
 requirements. If both your source code and writing meet all of the established
 requirements, then you will see a green &#x2714; in the listing of commits in
 GitHub. If your submission does not meet the requirements, a red &#x2717; will
-appear instead. The instructor will reduce a programmer's grade for this
-assignment if the red &#x2717; appears on the last commit in GitHub immediately
-before the assignment's due date.
+appear instead. Please note that, at the option of the course instructor, some
+checks may be run in Travis CI that are not run locally by the [GatorGrader
+tool](https://github.com/GatorEducator/gatorgrader). Finally, the instructor
+will reduce a programmer's grade for this assignment if the red &#x2717; appears
+on the last commit in GitHub immediately before the assignment's due date.
 
 A carefully formatted assignment sheet for this project provides more details
 about the steps that a computer scientist should take to complete this
 assignment. You can view this assignment sheet by visiting the listing of
 laboratories on the course web site created by the course instructor. Please pay
 attention to the icons in the left-hand margin of the assignment sheet as they
-will help you to understand what steps you should take at key parts of the
-assignment.
+will help you to understand and remember what steps you should take at key parts
+of the assignment.
 
 ## Continuous Learning
 
