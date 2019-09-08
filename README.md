@@ -45,21 +45,22 @@ contains the solution for a laboratory assignment in an introductory computer
 science class that uses the Java programming language. The Travis CI builds for
 this repository will pass, as evidenced by a green &#x2714; instead of a red
 &#x2717; appearing in the commit logs. An instructor would use this repository
-to create a "starter" repository with missing features that a student would add
-in order to achieve the stated learning objectives. A lot of the content in this
-document is written in its current form under the assumption that it will also
-accompany the "starter" repository that an instructor shares with a student
-through [GitHub Classroom](https://classroom.github.com/).
+to create a "starter" repository with purposefully omitted features that a
+student would create in order to achieve the stated learning objectives. A lot
+of the content in this document is written in its current form under the
+assumption that it will also accompany the "starter" repository that an
+instructor shares with a student through the use of [GitHub
+Classroom](https://classroom.github.com/).
 
 This assignment requires a programmer to implement and test a Java program,
 called `DisplayOutput`, that will produce four lines of output. The first line
 of output will contain the name of the programmer and the date at which the
-program was run. The next three lines of output will feature any one-sentence
-and one-line statements of declarations that the programmer would like to
-provide to the person using the program. As verified by
+program was run. The next three lines of output will feature certain
+one-sentence and one-line statements of declarations that the programmer would
+like to provide to the person using the program. As verified by
 [Checkstyle](https://github.com/checkstyle/checkstyle), the source code for the
-`DisplayOutput.java` file must adhere to all of the requirements in the [Google
-Java Style Guide](https://google.github.io/styleguide/javaguide.html).
+`DisplayOutput.java` file must adhere to all of the requirements given in the
+[Google Java Style Guide](https://google.github.io/styleguide/javaguide.html).
 
 The programmer completing this assignment is also responsible for writing a
 multiple-paragraph reflection, stored in the file `writing/reflection.md`, that
