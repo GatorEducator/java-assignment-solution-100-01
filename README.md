@@ -133,7 +133,7 @@ This project invites students to enter system commands into a terminal window.
 This assignment uses [Docker](https://www.docker.com) to deliver programs, such
 as `gradle` and the source code and packages needed to run
 [GatorGrader](https://github.com/GatorEducator/gatorgrader), to a students'
-computer, thereby obviating the need for a programmer to install these on their
+computer, thereby eliminating the need for a programmer to install them on their
 development workstation. Individuals who do not want to install Docker can
 optionally install of the programs mentioned in the [Project
 Requirements](#requirements) section of this document.
@@ -157,21 +157,46 @@ docker run --rm --name dockagator \
 The aforementioned command will use `"$(pwd)"` (i.e., the current directory) as
 the project directory and `"$HOME/.dockagator"` as the cached GatorGrader
 directory. Please note that both of these directories must exist, although only
-the project directory must contain something. Specifically, the project
-directory should contain the source code and technical writing of this
-assignment. Additionally, the cache directory should not contain anything other
-than directories and programs created by DockaGator, otherwise they may be
-overridden. To ensure that the previous command will work correctly, you should
-create the cache directory by running the command `mkdir $HOME/.dockagator`. If
-the above command does not work correctly on the Windows operating system, you
-may need to instead run the following command to work around limitations in the
-terminal window:
+the project directory must contain something. Generally, the project directory
+should contain the source code and technical writing of this assignment, as
+provided to a student through GitHub. Additionally, the cache directory should
+not contain anything other than directories and programs created by DockaGator,
+thus ensuring that they are not otherwise overwritten during the completion of
+the assignment. To ensure that the previous command will work correctly, you
+should create the cache directory by running the command `mkdir
+$HOME/.dockagator`. If the above `docker run` command does not work correctly on
+the Windows operating system, you may need to instead run the following command
+to work around limitations in the terminal window:
 
 ```bash
 docker run --rm --name dockagator \
   -v "$(pwd):/project" \
   -v "$HOME/.dockagator:/root/.local/share" \
   gatoreducator/dockagator
+```
+
+Here are some additional commands that you may need to type when using Docker:
+
+* `docker info`: display information about how Docker runs on your workstation
+* `docker images`: show the Docker images installed on your workstation
+* `docker container list`: list the active images running on your workstation
+* `docker system prune`: remove many "dangling" components from your workstation
+* `docker image prune`: remove all "dangling" docker images from your workstation
+* `docker container prune`: remove all stopped docker containers from your workstation
+* `docker rmi $(docker images -q) --force`: remove all docker images from your workstation
+
+## Using Gradle
+
+Since the above `docker run` command is configured to run `gradle grade` and
+then exit the Docker container, you may want to run the following command so
+that you enter an "interactive terminal" that will allow you to repeatedly run
+commands within the Docker container.
+
+```bash
+docker run -it --rm --name dockagator \
+  -v "$(pwd)":/project \
+  -v "$HOME/.dockagator":/root/.local/share \
+  gatoreducator/dockagator /bin/bash
 ```
 
 To get started in using the GatorGrader tool, you can change into the directory
@@ -182,8 +207,6 @@ mistakes in the assignment, then this means that your source code and writing
 are passing all of the automated baseline checks. However, if the output
 indicates that there are mistakes, then you will need to understand what they
 are and then try to fix them.
-
-## Using Gradle
 
 You can also complete several important Java programming tasks by using the
 `gradle` tool. For instance, you can compile (i.e., create bytecode from the
