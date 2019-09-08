@@ -225,19 +225,28 @@ directory for this assignment where the `build.gradle` file is located.
 
 ## Program Output
 
-Typing the command `gradle run` in the terminal window produces the following
-output for the instructor's version of `DisplayOutput`. As long as your program
-adheres to all of the requirements for the assignment and passes all of the
-verification checks, your version may produce (partially) different output.
+Typing the command `gradle run` in the terminal window should produce the
+following output for the completed version of `DisplayOutput`. As long as your
+program adheres to all of the requirements for the assignment and passes all of
+the verification checks, your version should produce similar output. With that
+said, program output may vary according to, for instance, the name of the
+programmer and the date on which you ran the program.
 
 ```
-> Task :run
-Gregory M. Kapfhammer Tue Sep 04 11:22:42 EDT 2018
-Hello world.
-Gradle is great.
-Travis is tremendous.
+> Configure project :
+Configured GatorGradle 0.4.4
 
-BUILD SUCCESSFUL in 0s
+> Task :compileJava UP-TO-DATE
+> Task :processResources NO-SOURCE
+> Task :classes UP-TO-DATE
+
+> Task :run
+Gregory M. Kapfhammer Sun Sep 08 22:29:56 GMT 2019
+Hello World.
+Gradle is Great.
+Docker is Dynamite.
+
+BUILD SUCCESSFUL in 1s
 2 actionable tasks: 1 executed, 1 up-to-date
 ```
 
