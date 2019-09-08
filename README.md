@@ -250,6 +250,16 @@ BUILD SUCCESSFUL in 1s
 2 actionable tasks: 1 executed, 1 up-to-date
 ```
 
+Running the command `gradle -q --console plain run` will suppress the display of
+Gradle's diagnostic information and produce output like the following.
+
+```
+Gregory M. Kapfhammer Sun Sep 08 22:32:05 GMT 2019
+Hello World.
+Gradle is Great.
+Docker is Dynamite.
+```
+
 ## Automated Checks with GatorGrader
 
 In addition to meeting all of the requirements outlined in the assignment sheet,
