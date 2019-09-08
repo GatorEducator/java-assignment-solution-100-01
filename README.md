@@ -263,7 +263,9 @@ Docker is Dynamite.
 ## Automated Checks with GatorGrader
 
 In addition to meeting all of the requirements outlined in the assignment sheet,
-your submission must pass the following checks:
+your submission must pass the following checks that
+[GatorGrader](https://github.com/GatorEducator/gatorgrader) automatically
+assesses:
 
 - Repository has at least 10 commit(s)
 - The DisplayOutput.java in src/main/java/labone has at least 2 multiple-line Java comment(s)
@@ -286,20 +288,20 @@ your submission must pass the following checks:
 - The reflection.md in writing has exactly 3 of the `code` tag
 - The reflection.md in writing has exactly 6 of the `heading` tag
 
-## Updates
+## Receiving Project Updates
 
 If GatorGrader's maintainers push updates too this sample assignment and you
 received it through GitHub Classroom and you would like to receive these updates,
 then you can type this command in the main directory for this assignment:
 
 ```
-git remote add download git@github.com:GatorEducator/cs100-F2018-lab1-starter.git
+git remote add download git@github.com:GatorEducator/java-assignment-solution-100-01
 ```
 
 You should only need to type this command once; typing the command additional
 times may yield an error message but will not negatively influence the state of
 your repository. Now, you are ready to download the updates provided by the
-course instructor by typing:
+course instructor by typing this command:
 
 ```
 git pull download master
@@ -309,7 +311,11 @@ This second command can be run whenever the course instructor needs to provide
 you with new source code for this assignment. However, please note that, if you
 have edited the files that the course instructor updated, running the previous
 command may lead to Git merge conflicts. If this happens, you may need to
-manually resolve them with the help of the instructor or a teaching assistant.
+manually resolve them with the help of the instructor or a student technical
+leader. Finally, please note that
+[GatorGrader's](https://github.com/GatorEducator/gatorgrader) [Gradle
+plugin](https://github.com/GatorEducator/gatorgradle) automatically downloads
+the newest version of GatorGrader.
 
 ## Using Travis CI
 
