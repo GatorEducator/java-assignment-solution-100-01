@@ -58,8 +58,8 @@ script:
   - gradle check
   - gradle build
   - gradle run
-  # GatorGrader: see config/gatorgrader.yml for details about all checks
-  # grading skips the build task since submitted code may not build
+  # GatorGrader: see config/gatorgrader.yml for details about all checks;
+  # not that grading skips the build task since submitted code may not build
   - gradle grade -x build
   # lint the technical writing, which is done in Travis CI to avoid possible
   # issues with line endings and Ruby programs on Windows computers
