@@ -127,9 +127,15 @@ Chapters 1 and 2 in the course textbook, paying particularly close attention to
 Sections 1.5 and 2.1. Please see the course instructor or one of the student
 technical leaders if you have questions about any of these reading assignments.
 
-## Commands
+## System Commands
 
-### Docker
+This project invites students to enter system commands into a terminal window.
+This assignment uses [Docker](https://www.docker.com) to deliver programs, such
+as `gradle` and the source code and packages needed to run
+[GatorGrader](https://github.com/GatorEducator/gatorgrader), to a students'
+computer.
+
+### Using Docker
 
 Execute the following `docker run` command to start `gradle grade` as a
 containerized application.
@@ -166,11 +172,14 @@ are passing all of the automated baseline checks. However, if the output
 indicates that there are mistakes, then you will need to understand what they
 are and then try to fix them.
 
+## Using Gradle
+
 You can also complete several important Java programming tasks by using the
 `gradle` tool. For instance, you can compile (i.e., create bytecode from the
 program's source code if it is a correct program) the program using the command
 `gradle build`. There are other additional commands that you can type:
 
+* `gradle grade`: run the [GatorGrader](https://github.com/GatorEducator/gatorgrader) tool to check your work
 * `gradle clean`: clean the project of all the derived files
 * `gradle check`: check the quality of the code using Checkstyle
 * `gradle build`: create the bytecode from the Java source code
