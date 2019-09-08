@@ -28,7 +28,7 @@ Automated assessment for an assignment on Java programming and technical writing
 * [Introduction](#introduction)
 * [Learning](#learning)
 * [Commands](#commands)
-  + [Docker](#docker)
+  * [Docker](#docker)
 * [Output](#output)
 * [Automated Checks with GatorGrader](#automated-checks-with-gatorgrader)
 * [Updates](#updates)
@@ -169,11 +169,11 @@ You can also complete several important Java programming tasks by using the
 program's source code if it is a correct program) the program using the command
 `gradle build`. There are other additional commands that you can type:
 
-- `gradle clean`: clean the project of all the derived files
-- `gradle check`: check the quality of the code using Checkstyle
-- `gradle build`: create the bytecode from the Java source code
-- `gradle run`: run the Java program in the command-line
-- `gradle tasks`: display details about the Gradle system
+* `gradle clean`: clean the project of all the derived files
+* `gradle check`: check the quality of the code using Checkstyle
+* `gradle build`: create the bytecode from the Java source code
+* `gradle run`: run the Java program in the command-line
+* `gradle tasks`: display details about the Gradle system
 
 To run one of these commands, you must be in the main (or "home base") directory
 for this assignment where the `build.gradle` file is located. Then, you can type
