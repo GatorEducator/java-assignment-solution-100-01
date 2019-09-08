@@ -223,7 +223,7 @@ program's source code if it is a correct program) the program using the command
 To run one of these commands, you must be in the main (i.e., "home base")
 directory for this assignment where the `build.gradle` file is located.
 
-## Program Output
+## Expected Program Output
 
 Typing the command `gradle run` in the terminal window should produce the
 following output for the completed version of `DisplayOutput`. As long as your
