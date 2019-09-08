@@ -188,9 +188,9 @@ Here are some additional commands that you may need to type when using Docker:
 ## Using Gradle
 
 Since the above `docker run` command is configured to run `gradle grade` and
-then exit the Docker container, you may want to run the following command so
-that you enter an "interactive terminal" that will allow you to repeatedly run
-commands within the Docker container.
+then exit the Docker container, you may want to instead run the following
+command so that you enter an "interactive terminal" that will allow you to
+repeatedly run commands within the Docker container.
 
 ```bash
 docker run -it --rm --name dockagator \
@@ -199,14 +199,15 @@ docker run -it --rm --name dockagator \
   gatoreducator/dockagator /bin/bash
 ```
 
-To get started in using the GatorGrader tool, you can change into the directory
-for this assignment and type the command `gradle grade` in your terminal.
-Running this command will produce a lot of output that you should carefully
-inspect. If the output indicates that GatorGrader judges that there are no
-mistakes in the assignment, then this means that your source code and writing
-are passing all of the automated baseline checks. However, if the output
-indicates that there are mistakes, then you will need to understand what they
-are and then try to fix them.
+Once you have typed this comment, you can use the [GatorGrader
+tool](https://github.com/GatorEducator/gatorgrader) in the Docker container by
+typing the command `gradle grade` in your terminal. Running this command will
+produce a lot of output that you should carefully inspect. If the output
+indicates that GatorGrader judges that there are no mistakes in the assignment,
+then this means that your source code and writing are passing all of the
+automated baseline checks. However, if the output indicates that there are
+mistakes, then you will need to understand what they are and then try to fix
+them.
 
 You can also complete several important Java programming tasks by using the
 `gradle` tool. For instance, you can compile (i.e., create bytecode from the
@@ -220,9 +221,8 @@ program's source code if it is a correct program) the program using the command
 * `gradle run`: run the Java program in the command-line
 * `gradle tasks`: display details about the Gradle system
 
-To run one of these commands, you must be in the main (or "home base") directory
-for this assignment where the `build.gradle` file is located. Then, you can type
-the command in the terminal and study the output.
+To run one of these commands, you must be in the main (i.e., "home base")
+directory for this assignment where the `build.gradle` file is located.
 
 ## Program Output
 
