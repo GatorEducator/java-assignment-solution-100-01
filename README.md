@@ -67,12 +67,12 @@ multiple-paragraph reflection, stored in the file `writing/reflection.md`, that
 explains the challenges that you faced and the solutions you developed. This is
 a Markdown file that should adhere to the standards described in the [Markdown
 Syntax Guide](https://guides.github.com/features/mastering-markdown/). Remember,
-you can preview the contents of a comitted Markdown file by clicking on the name
-of the file in your GitHub repository. Don't forget that your
-`writing/reflection.md` file should adhere to the Markdown standards established
-by the [Markdown linting tool](https://github.com/markdownlint/markdownlint)
-and, optionally, the writing standards set by the [Proselint
-tool](http://proselint.com/).
+an individual completing this assignment can preview the contents of a comitted
+Markdown file by clicking on the name of the file in your GitHub repository.
+Don't forget that your `writing/reflection.md` file should adhere to the
+Markdown standards established by the [Markdown linting
+tool](https://github.com/markdownlint/markdownlint) and, optionally, the writing
+standards set by the [Proselint tool](http://proselint.com/).
 
 The source code in the `DisplayOutput.java` file must also pass additional tests
 set by the [GatorGrader tool](https://github.com/GatorEducator/gatorgrader). For
