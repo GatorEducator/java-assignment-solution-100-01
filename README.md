@@ -133,12 +133,19 @@ This project invites students to enter system commands into a terminal window.
 This assignment uses [Docker](https://www.docker.com) to deliver programs, such
 as `gradle` and the source code and packages needed to run
 [GatorGrader](https://github.com/GatorEducator/gatorgrader), to a students'
-computer.
+computer, thereby obviating the need for a programmer to install these on their
+development workstation. Individuals who do not want to install Docker can
+optionally install of the programs mentioned in the [Project
+Requirements](#requirements) section of this document.
 
 ### Using Docker
 
-Execute the following `docker run` command to start `gradle grade` as a
-containerized application.
+Once you have installed [Docker
+Desktop](https://www.docker.com/products/docker-desktop), you can use the
+following `docker run` command to start `gradle grade` as a containerized
+application, using the [DockaGator](https://github.com/GatorEducator/dockagator)
+Docker image available on
+[DockerHub](https://cloud.docker.com/u/gatoreducator/repository/docker/gatoreducator/dockagator).
 
 ```bash
 docker run --rm --name dockagator \
@@ -147,21 +154,25 @@ docker run --rm --name dockagator \
   gatoreducator/dockagator
 ```
 
-This will use `"$(pwd)"` (the current directory) as the project directory and
-`"$HOME/.dockagator"` as the cached GatorGrader directory; both directories
-must exist, although only the project directory must contain something. The
-cache directory should not contain anything other than directories and programs
-created by DockaGator, otherwise they may be overridden. To create the directory
-given here (so that this exact command will work),
-execute `mkdir $HOME/.dockagator`.
+The aforementioned command will use `"$(pwd)"` (i.e., the current directory) as
+the project directory and `"$HOME/.dockagator"` as the cached GatorGrader
+directory. Please note that both of these directories must exist, although only
+the project directory must contain something. Specifically, the project
+directory should contain the source code and technical writing of this
+assignment. Additionally, the cache directory should not contain anything other
+than directories and programs created by DockaGator, otherwise they may be
+overridden. To ensure that the previous command will work correctly, you should
+create the cache directory by running the command `mkdir $HOME/.dockagator`. If
+the above command does not work correctly on the Windows operating system, you
+may need to instead run the following command to work around limitations in the
+terminal window:
 
-On Windows you need to run:
-
+```bash
+docker run --rm --name dockagator \
+  -v "$(pwd):/project" \
+  -v "$HOME/.dockagator:/root/.local/share" \
+  gatoreducator/dockagator
 ```
-docker run --rm --name dockagator -v "$(pwd):/project" -v "$HOME/.dockagator:/root/.local/share" gatoreducator/dockagator
-```
-
-Note that this command has the quote marks in a different location.
 
 To get started in using the GatorGrader tool, you can change into the directory
 for this assignment and type the command `gradle grade` in your terminal.
@@ -259,7 +270,7 @@ have edited the files that the course instructor updated, running the previous
 command may lead to Git merge conflicts. If this happens, you may need to
 manually resolve them with the help of the instructor or a teaching assistant.
 
-## Travis
+## Using Travis CI
 
 This assignment uses [Travis CI](https://travis-ci.com/) to automatically run
 the checking programs every time you commit to your GitHub repository. The
