@@ -3,7 +3,7 @@
 GatorGrader example that contains a solution to a Java programming:
 https://github.com/GatorEducator/java-assignment-solution-100-01
 
-This is "starter" companion repository (i.e., the repository given to students):
+This is companion "starter" repository (i.e., the repository given to students):
 https://github.com/GatorEducator/java-assignment-starter-100-01
 
 Learn more about GatorGrader and its supported checks by visiting this web site:
