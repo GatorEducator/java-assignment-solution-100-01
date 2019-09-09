@@ -388,3 +388,9 @@ with either the course instructor or a student technical leader during the
 course session. Alternatively, you may ask questions in the Slack workspace for
 this course. Finally, you can schedule a meeting during the course instructor's
 office hours.
+
+## Project Assessment
+
+Following many of the principles of [specification-based
+grading](http://rtalbert.org/return-to-specs-grading-calculus/), the grade that
+a student receives on this assignment will have the following components:
