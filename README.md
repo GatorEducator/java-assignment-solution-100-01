@@ -434,5 +434,5 @@ a student receives on this assignment will have the following components:
 All grades for this project will be reported through a student's GitHub
 repository using either messages in the GitHub commit log or issues raised in
 the issue tracker. Students should ask questions about their grade for this
-project in GitHub so as enable an effective conversation about the submitted
-deliverables.
+project in GitHub so as to facilitate an effective conversation about the
+submitted deliverables.
