@@ -334,14 +334,20 @@ Travis CI was correctly enabled.
 
 ## System Requirements
 
-The GatorGrader software that supports the checking of this assignment was
-developed for the following software and versions:
+We developed this assignment for the following software and versions:
 
-- Gradle 4.6
-- Java 1.8.0
-- MDL 0.4.0
-- Proselint 0.8.0
-- Python 3.6
+- Docker Desktop
+- Operating Systems
+  - Linux
+  - MacOS
+  - Windows 10 Pro
+  - Windows 10 Enterprise
+- Programming Language Tools
+  - Gradle 5.4
+  - MDL 0.5.0
+  - OpenJDK 11.0.4
+  - Proselint 0.10.2
+  - Python 3.6 or 3.7
 
 ## Reporting Problems
 
