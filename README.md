@@ -411,15 +411,15 @@ a student receives on this assignment will have the following components:
   component, students are encouraged to repeatedly revise their source code and
   technical writing in an attempt to get their Travis CI build to pass.
 
-- **Mastery of Technical Writing**: Students will receive also receive a
-  checkmark grade when the responses to the technical writing questions
-  presented in the `writing/reflection.md` reveal a mastery of both writing
-  skills and technical knowledge. To receive a checkmark grade, the submitted
-  writing should have correct spelling, grammar, and punctuation in addition to
-  following the rules of Markdown and providing technically accurate answers.
-  Students are encouraged to ask the course instructor or a student technical
-  leader to use the GitHub issue tracker to provide feedback on their mastery of
-  technical writing skills.
+- **Mastery of Technical Writing**: Students will also receive a checkmark grade
+  when the responses to the technical writing questions presented in the
+  `writing/reflection.md` reveal a mastery of both writing skills and technical
+  knowledge. To receive a checkmark grade, the submitted writing should have
+  correct spelling, grammar, and punctuation in addition to following the rules
+  of Markdown and providing technically accurate answers. Students are
+  encouraged to ask the course instructor or a student technical leader to use
+  the GitHub issue tracker to provide feedback on their mastery of technical
+  writing skills.
 
 - **Mastery of Technical Knowledge and Skills**: Students will receive also
   receive a checkmark grade when their GitHub repository reveals that they have
