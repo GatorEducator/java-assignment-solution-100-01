@@ -177,7 +177,7 @@ docker run --rm --name dockagator \
   gatoreducator/dockagator
 ```
 
-Here are some additional commands that you may need to type when using Docker:
+Here are some additional commands that you may need to use when using Docker:
 
 * `docker info`: display information about how Docker runs on your workstation
 * `docker images`: show the Docker images installed on your workstation
@@ -190,7 +190,7 @@ Here are some additional commands that you may need to type when using Docker:
 ### Using Gradle
 
 Since the above `docker run` command uses a Docker images that, by default, runs
-`gradle grade` and then exit the Docker container, you may want to instead run
+`gradle grade` and then exits the Docker container, you may want to instead run
 the following command so that you enter an "interactive terminal" that will
 allow you to repeatedly run commands within the Docker container.
 
@@ -212,8 +212,8 @@ they are and then try to fix them.
 
 You can also complete several important Java programming tasks by using the
 `gradle` tool. For instance, you can compile (i.e., create bytecode from the
-program's source code if it is a correct program) the program using the command
-`gradle build`. Here are some other commands that you can type:
+program's source code if it is correct) the program using the command `gradle
+build`. Here are some other commands that you can type:
 
 * `gradle grade`: run the [GatorGrader](https://github.com/GatorEducator/gatorgrader) tool to check your work
 * `gradle clean`: clean the project of all the derived files
@@ -303,7 +303,7 @@ command `echo $?`).
 
 ## Downloading Project Updates
 
-If GatorGrader's maintainers push updates too this sample assignment and you
+If GatorGrader's maintainers push updates to this sample assignment and you
 received it through GitHub Classroom and you would like to also receive these
 updates, then you can type this command in the main directory for this
 assignment:
@@ -312,7 +312,7 @@ assignment:
 git remote add download git@github.com:GatorEducator/java-assignment-solution-100-01
 ```
 
-You should only need to type this command once; typing the command additional
+You should only need to type this command once; running the command additional
 times may yield an error message but will not negatively influence the state of
 your Git repository. Now, you are ready to download the updates provided by the
 GatorGrader maintainers by typing this command:
@@ -369,7 +369,7 @@ repository and [raise an
 issue](https://github.com/GatorEducator/java-assignment-solution-100-01/issues).
 If you have found a problem with the [GatorGrader
 tool](https://github.com/GatorEducator/gatorgrader) and the way that it checks
-you assignment you can also [raise an
+your assignment, then you can also [raise an
 issue](https://github.com/GatorEducator/gatorgrader/issues) in that repository.
 To ensure that your issue is properly resolved, please provide as many details
 as is possible about the problem that you experienced. If you discover a problem
@@ -379,7 +379,7 @@ GitHub repository that provides the assignment sheets for your course.
 Whenever possible, individuals who find, and use the appropriate GitHub issue
 tracker to correctly document, a mistake in any aspect of this assignment will
 receive free [GitHub stickers](https://octodex.github.com/) and extra credit
-towards their grade for it.
+towards their grade for the project.
 
 ## Receiving Assistance
 
@@ -391,6 +391,47 @@ office hours.
 
 ## Project Assessment
 
-Following many of the principles of [specification-based
+Taking inspiration from the principles of [specification-based
 grading](http://rtalbert.org/return-to-specs-grading-calculus/), the grade that
 a student receives on this assignment will have the following components:
+
+- **Percentage of Correct GatorGrader Checks**: Students are encouraged to
+  repeatedly try to implement a Java program that passes all of GatorGrader's
+  checks by, for instance, producing the correct output. Students should also
+  repeatedly revise their technical writing to ensure that it also passes all of
+  GatorGrader's checks about, for instance, the length of its content and its
+  use of Markdown.
+
+- **Travis CI Build Status**: Since additional checks on the source code or
+  technical writing may be encoded in Travis CI's actions and, moreover, all of
+  the GatorGrader checks are also run in Travis CI, students will receive a
+  checkmark grade if their builds pass and a green &#x2714; appears in their
+  GitHub commit log instead of a red &#x2717;. As with the previous grading
+  component, students are encouraged to repeatedly attempt to get their Travis
+  CI build to pass.
+
+- **Mastery of Technical Writing**: Students will receive also receive a
+  checkmark grade when the responses to the technical writing questions
+  presented in the `writing/reflection.md` reveal a mastery of both writing
+  skills and technical knowledge. To receive a checkmark grade, the submitted
+  writing should have correct spelling, grammar, and punctuation in addition to
+  following the rules of Markdown and providing technically accurate answers.
+  Students are encouraged to ask the course instructor or a student technical
+  leader to use the GitHub issue tracker to provide feedback on their mastery of
+  technical writing skills.
+
+- **Mastery of Technical Knowledge and Skills**: Students will receive also
+  receive a checkmark grade when their GitHub repository reveals that they have
+  mastered all of the technical knowledge and skills developed as a part of this
+  project. As a part of this grade, the instructor will assess aspects of the
+  project including, but not limited to, the use of effect source code comments
+  and Git commit messages. Students are encouraged to ask the course instructor
+  or a student technical leader to use the GitHub issue tracker to provide
+  feedback on how well their work demonstrates mastery of the assignment's
+  technical skills.
+
+All grades for this project will be reported through a student's GitHub
+repository using either messages in the GitHub commit log or issues raised in
+the issue tracker. Students should ask questions about their grade for this
+project in GitHub so as enable an effective conversation about the submitted
+deliverables.
