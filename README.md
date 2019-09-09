@@ -25,17 +25,19 @@ Automated assessment for an assignment on Java programming and technical writing
 
 ## Table of Contents
 
+* [Table of Contents](#table-of-contents)
 * [Introduction](#introduction)
-* [Learning](#learning)
-* [Commands](#commands)
-  * [Docker](#docker)
-* [Output](#output)
+* [Continuous Learning](#continuous-learning)
+* [System Commands](#system-commands)
+  + [Using Docker](#using-docker)
+  + [Using Gradle](#using-gradle)
+* [Expected Program Output](#expected-program-output)
 * [Automated Checks with GatorGrader](#automated-checks-with-gatorgrader)
-* [Updates](#updates)
-* [Travis](#travis)
-* [Requirements](#requirements)
-* [Problems](#problems)
-* [Assistance](#assistance)
+* [Downloading Project Updates](#downloading-project-updates)
+* [Using Travis CI](#using-travis-ci)
+* [System Requirements](#system-requirements)
+* [Reporting Problems](#reporting-problems)
+* [Receiving Assistance](#receiving-assistance)
 
 ## Introduction
 
@@ -185,7 +187,7 @@ Here are some additional commands that you may need to type when using Docker:
 * `docker container prune`: remove all stopped docker containers from your workstation
 * `docker rmi $(docker images -q) --force`: remove all docker images from your workstation
 
-## Using Gradle
+### Using Gradle
 
 Since the above `docker run` command uses a Docker images that, by default, runs
 `gradle grade` and then exit the Docker container, you may want to instead run
