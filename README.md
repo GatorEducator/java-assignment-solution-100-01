@@ -400,15 +400,15 @@ a student receives on this assignment will have the following components:
   checks by, for instance, producing the correct output. Students should also
   repeatedly revise their technical writing to ensure that it also passes all of
   GatorGrader's checks about, for instance, the length of its content and its
-  use of Markdown.
+  appropriate use of Markdown.
 
-- **Travis CI Build Status**: Since additional checks on the source code or
+- **Travis CI Build Status**: Since additional checks on the source code and/or
   technical writing may be encoded in Travis CI's actions and, moreover, all of
   the GatorGrader checks are also run in Travis CI, students will receive a
   checkmark grade if their builds pass and a green &#x2714; appears in their
   GitHub commit log instead of a red &#x2717;. As with the previous grading
-  component, students are encouraged to repeatedly attempt to get their Travis
-  CI build to pass.
+  component, students are encouraged to repeatedly revise their source code and
+  technical writing in an attempt to get their Travis CI build to pass.
 
 - **Mastery of Technical Writing**: Students will receive also receive a
   checkmark grade when the responses to the technical writing questions
@@ -422,13 +422,13 @@ a student receives on this assignment will have the following components:
 
 - **Mastery of Technical Knowledge and Skills**: Students will receive also
   receive a checkmark grade when their GitHub repository reveals that they have
-  mastered all of the technical knowledge and skills developed as a part of this
-  project. As a part of this grade, the instructor will assess aspects of the
-  project including, but not limited to, the use of effect source code comments
-  and Git commit messages. Students are encouraged to ask the course instructor
-  or a student technical leader to use the GitHub issue tracker to provide
-  feedback on how well their work demonstrates mastery of the assignment's
-  technical skills.
+  mastered all of the technical knowledge and skills developed during the
+  completion of this project. As a part of this grade, the instructor will
+  assess aspects of the project including, but not limited to, the use of effect
+  source code comments and Git commit messages. Students are encouraged to ask
+  the course instructor or a student technical leader to use the GitHub issue
+  tracker to provide feedback on how well their work demonstrates mastery of the
+  assignment's technical skills.
 
 All grades for this project will be reported through a student's GitHub
 repository using either messages in the GitHub commit log or issues raised in
