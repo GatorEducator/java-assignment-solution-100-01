@@ -290,6 +290,17 @@ assesses:
 - The reflection.md in writing has exactly 3 of the `code` tag
 - The reflection.md in writing has exactly 6 of the `heading` tag
 
+If [GatorGrader's](https://github.com/GatorEducator/gatorgrader) automated
+checks pass correctly, the tool will produce the output like the following in
+addition to returning a zero exit code (which you can access by typing the
+command `echo $?`).
+
+```
+        ┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓
+        ┃ Passed 20/20 (100%) of checks for java-assignment-solution-100-01! ┃
+        ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
+```
+
 ## Downloading Project Updates
 
 If GatorGrader's maintainers push updates too this sample assignment and you
