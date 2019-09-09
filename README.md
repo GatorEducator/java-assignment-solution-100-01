@@ -345,7 +345,7 @@ Travis CI was correctly enabled.
 
 ## System Requirements
 
-We developed this assignment for the following software and versions:
+We developed this assignment to work with the following software and versions:
 
 - Docker Desktop
 - Operating Systems
