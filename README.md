@@ -398,10 +398,10 @@ a student receives on this assignment will have the following components:
 
 - **Percentage of Correct GatorGrader Checks**: Students are encouraged to
   repeatedly try to implement a Java program that passes all of GatorGrader's
-  checks by, for instance, producing the correct output. Students should also
-  repeatedly revise their technical writing to ensure that it also passes all of
-  GatorGrader's checks about, for instance, the length of its content and its
-  appropriate use of Markdown.
+  checks by, for instance, creating a program that produces the correct output.
+  Students should also repeatedly revise their technical writing to ensure that
+  it also passes all of GatorGrader's checks about, for instance, the length of
+  its content and its appropriate use of Markdown.
 
 - **Travis CI Build Status**: Since additional checks on the source code and/or
   technical writing may be encoded in Travis CI's actions and, moreover, all of
@@ -425,11 +425,11 @@ a student receives on this assignment will have the following components:
   receive a checkmark grade when their GitHub repository reveals that they have
   mastered all of the technical knowledge and skills developed during the
   completion of this project. As a part of this grade, the instructor will
-  assess aspects of the project including, but not limited to, the use of effect
-  source code comments and Git commit messages. Students are encouraged to ask
-  the course instructor or a student technical leader to use the GitHub issue
-  tracker to provide feedback on how well their work demonstrates mastery of the
-  assignment's technical skills.
+  assess aspects of the project including, but not limited to, the use of
+  effective source code comments and Git commit messages. Students are
+  encouraged to ask the course instructor or a student technical leader to use
+  the GitHub issue tracker to provide feedback on how well their work
+  demonstrates mastery of the assignment's technical knowledge and skills.
 
 All grades for this project will be reported through a student's GitHub
 repository using either messages in the GitHub commit log or issues raised in
