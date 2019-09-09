@@ -320,14 +320,15 @@ download the newest version of GatorGrader.
 ## Using Travis CI
 
 This assignment uses [Travis CI](https://travis-ci.com/) to automatically run
-the checking programs every time you commit to your GitHub repository. The
-checking will start as soon as you have accepted the assignment, thus creating
-your own private repository, and the course instructor and/or GitHub enables
-Travis for it. If you are using Travis for the first time, you will need to
-authorize Travis CI to access the private repositories that you created on
-GitHub. If you do not see either a yellow &#9679; or a green &#x2714; or a red
-&#x2717; in your listing of commits, then please ask the instructor to see
-whether or not Travis CI was correctly enabled.
+[GatorGrader](https://github.com/GatorEducator/gatorgrader) and additional
+checking programs every time you commit to your GitHub repository. The checking
+will start as soon as you have accepted the assignment &mdash; thus creating your own
+private repository &mdash; and the course instructor and/or GitHub enables Travis for
+it. If you are using Travis for the first time, you will need to authorize
+Travis CI to access the private repositories that you created on GitHub. If you
+do not see either a yellow &#9679; or a green &#x2714; or a red &#x2717; in your
+listing of commits, then please ask the instructor to see whether or not
+Travis CI was correctly enabled.
 
 ## System Requirements
 
