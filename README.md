@@ -21,7 +21,7 @@ Automated assessment for an assignment on Java programming and technical writing
 </b>
 </p>
 
-# java-assignment-java-assignment-solution-100-01
+# java-assignment-solution-100-01
 
 ## Table of Contents
 
@@ -362,28 +362,29 @@ We developed this assignment for the following software and versions:
 
 ## Reporting Problems
 
-If you have found a problem with this assignment's provided source code, then
-you can go to the [Computer Science 100 Lab 1
-Starter](https://github.com/Allegheny-Computer-Science-100-F2018/cs100-F2018-lab1-starter)
-repository and create an issue by clicking the "Issues" tab and then clicking
-the green "New Issue" button. If you have found a problem with the [GatorGrader
+If you have found a problem with this assignment's provided source code or
+documentation, then you can go to the [Java Assignment Solution
+100-01](https://github.com/GatorEducator/java-assignment-solution-100-01)
+repository and [raise an
+issue](https://github.com/GatorEducator/java-assignment-solution-100-01/issues).
+If you have found a problem with the [GatorGrader
 tool](https://github.com/GatorEducator/gatorgrader) and the way that it checks
-you assignment, then you can follow the aforementioned steps to create an issue
-in its repository. To ensure that your issue is properly resolved, please
-provide as many details as is possible about the problem that you experienced.
-If you discover a problem with the laboratory assignment sheet, then please
-raise an issue in the
-[cs100-F2018-sheets](https://github.com/Allegheny-Computer-Science-100-F2018/cs100-F2018-sheets)
-repository and mention this assignment.
+you assignment you can also [raise an
+issue](https://github.com/GatorEducator/gatorgrader/issues) in that repository.
+To ensure that your issue is properly resolved, please provide as many details
+as is possible about the problem that you experienced. If you discover a problem
+with the assignment sheet for this project, then please raise an issue in the
+GitHub repository that provides the assignment sheets for your course.
 
-Students who find &mdash; and use the appropriate GitHub issue tracker to
-correctly document &mdash; a mistake in any aspect of this laboratory assignment
-will receive free GitHub stickers and extra credit towards their grade for it.
+Whenever possible, individuals who find, and use the appropriate GitHub issue
+tracker to correctly document, a mistake in any aspect of this assignment will
+receive free [GitHub stickers](https://octodex.github.com/) and extra credit
+towards their grade for it.
 
 ## Receiving Assistance
 
 If you are having trouble completing any part of this project, then please talk
-with either the course instructor or a teaching assistant during the laboratory
-session. Alternatively, you may ask questions in the Slack workspace for this
-course. Finally, you can schedule a meeting during the course instructor's
+with either the course instructor or a student technical leader during the
+course session. Alternatively, you may ask questions in the Slack workspace for
+this course. Finally, you can schedule a meeting during the course instructor's
 office hours.
