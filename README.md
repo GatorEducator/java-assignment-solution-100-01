@@ -288,11 +288,12 @@ assesses:
 - The reflection.md in writing has exactly 3 of the `code` tag
 - The reflection.md in writing has exactly 6 of the `heading` tag
 
-## Receiving Project Updates
+## Downloading Project Updates
 
 If GatorGrader's maintainers push updates too this sample assignment and you
-received it through GitHub Classroom and you would like to receive these updates,
-then you can type this command in the main directory for this assignment:
+received it through GitHub Classroom and you would like to also receive these
+updates, then you can type this command in the main directory for this
+assignment:
 
 ```
 git remote add download git@github.com:GatorEducator/java-assignment-solution-100-01
@@ -300,21 +301,20 @@ git remote add download git@github.com:GatorEducator/java-assignment-solution-10
 
 You should only need to type this command once; typing the command additional
 times may yield an error message but will not negatively influence the state of
-your repository. Now, you are ready to download the updates provided by the
-course instructor by typing this command:
+your Git repository. Now, you are ready to download the updates provided by the
+GatorGrader maintainers by typing this command:
 
 ```
 git pull download master
 ```
 
-This second command can be run whenever the course instructor needs to provide
-you with new source code for this assignment. However, please note that, if you
-have edited the files that the course instructor updated, running the previous
-command may lead to Git merge conflicts. If this happens, you may need to
-manually resolve them with the help of the instructor or a student technical
-leader. Finally, please note that the [Gradle
-plugin](https://github.com/GatorEducator/gatorgradle) for
-[GatorGrader's](https://github.com/GatorEducator/gatorgrader) will automatically
+This second command can be run whenever the maintainers needs to provide you
+with new source code for this assignment. However, please note that, if you have
+edited the files that the we updated, running the previous command may lead to
+Git merge conflicts. If this happens, you may need to manually resolve them with
+the help of the instructor or a student technical leader. Finally, please note
+that the [Gradle plugin](https://github.com/GatorEducator/gatorgradle) for
+[GatorGrader](https://github.com/GatorEducator/gatorgrader) will automatically
 download the newest version of GatorGrader.
 
 ## Using Travis CI
@@ -329,7 +329,7 @@ GitHub. If you do not see either a yellow circle or a green checkmark or a red x
 in your listing of commits, then please ask the instructor to see whether or not
 Travis CI was correctly enabled.
 
-## Project Requirements
+## System Requirements
 
 The GatorGrader software that supports the checking of this assignment was
 developed for the following software and versions:
@@ -360,7 +360,7 @@ Students who find &mdash; and use the appropriate GitHub issue tracker to
 correctly document &mdash; a mistake in any aspect of this laboratory assignment
 will receive free GitHub stickers and extra credit towards their grade for it.
 
-## Assistance
+## Receiving Assistance
 
 If you are having trouble completing any part of this project, then please talk
 with either the course instructor or a teaching assistant during the laboratory
