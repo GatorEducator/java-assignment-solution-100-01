@@ -38,6 +38,7 @@ Automated assessment for an assignment on Java programming and technical writing
 * [System Requirements](#system-requirements)
 * [Reporting Problems](#reporting-problems)
 * [Receiving Assistance](#receiving-assistance)
+* [Project Assessment](#project-assessment)
 
 ## Introduction
 
