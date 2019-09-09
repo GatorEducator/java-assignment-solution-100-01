@@ -46,10 +46,10 @@ science class that uses the Java programming language. The Travis CI builds for
 this repository will pass, as evidenced by a green &#x2714; instead of a red
 &#x2717; appearing in the commit logs. An instructor would use this repository
 to create a "starter" repository with purposefully omitted features that a
-student would create in order to achieve the stated learning objectives. A lot
-of the content in this document is written in its current form under the
-assumption that it will also accompany the "starter" repository that an
-instructor shares with a student through the use of [GitHub
+student would create in order to achieve the stated learning objectives. Please
+bear in mind that much of the content in this document is written in its current
+form under the assumption that it will also accompany the "starter" repository
+that an instructor shares with a student through the use of [GitHub
 Classroom](https://classroom.github.com/).
 
 This assignment requires a programmer to implement and test a Java program,
@@ -325,9 +325,9 @@ checking will start as soon as you have accepted the assignment, thus creating
 your own private repository, and the course instructor and/or GitHub enables
 Travis for it. If you are using Travis for the first time, you will need to
 authorize Travis CI to access the private repositories that you created on
-GitHub. If you do not see either a yellow circle or a green checkmark or a red x
-in your listing of commits, then please ask the instructor to see whether or not
-Travis CI was correctly enabled.
+GitHub. If you do not see either a yellow &#9679; or a green &#x2714; or a red
+&#x2717; in your listing of commits, then please ask the instructor to see
+whether or not Travis CI was correctly enabled.
 
 ## System Requirements
 
