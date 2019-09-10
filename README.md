@@ -406,10 +406,11 @@ a student receives on this assignment will have the following components:
 - **Travis CI Build Status**: Since additional checks on the source code and/or
   technical writing may be encoded in Travis CI's actions and, moreover, all of
   the GatorGrader checks are also run in Travis CI, students will receive a
-  checkmark grade if their builds pass and a green &#x2714; appears in their
-  GitHub commit log instead of a red &#x2717;. As with the previous grading
-  component, students are encouraged to repeatedly revise their source code and
-  technical writing in an attempt to get their Travis CI build to pass.
+  checkmark grade if their last before-the-deadline build passes and a green
+  &#x2714; appears in their GitHub commit log instead of a red &#x2717;. As with
+  the previous grading component, students are encouraged to repeatedly revise
+  their source code and technical writing in an attempt to get their Travis CI
+  build to pass.
 
 - **Mastery of Technical Writing**: Students will also receive a checkmark grade
   when the responses to the technical writing questions presented in the
