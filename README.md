@@ -178,7 +178,7 @@ docker run --rm --name dockagator \
   gatoreducator/dockagator
 ```
 
-Here are some additional commands that you may need to use when using Docker:
+Here are some additional commands that you may need to run when using Docker:
 
 * `docker info`: display information about how Docker runs on your workstation
 * `docker images`: show the Docker images installed on your workstation
