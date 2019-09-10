@@ -324,10 +324,10 @@ git pull download master
 
 This second command can be run whenever the maintainers needs to provide you
 with new source code for this assignment. However, please note that, if you have
-edited the files that the we updated, running the previous command may lead to
-Git merge conflicts. If this happens, you may need to manually resolve them with
-the help of the instructor or a student technical leader. Finally, please note
-that the [Gradle plugin](https://github.com/GatorEducator/gatorgradle) for
+edited the files that we updated, running the previous command may lead to Git
+merge conflicts. If this happens, you may need to manually resolve them with the
+help of the instructor or a student technical leader. Finally, please note that
+the [Gradle plugin](https://github.com/GatorEducator/gatorgradle) for
 [GatorGrader](https://github.com/GatorEducator/gatorgrader) will automatically
 download the newest version of GatorGrader.
 
