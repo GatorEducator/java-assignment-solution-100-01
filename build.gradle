@@ -17,6 +17,9 @@ buildscript {
       classpath "gradle.plugin.org.gatored:gatorgradle:+"
     }
   }
+  plugins {
+  id 'com.github.sherter.google-java-format' version '0.8'
+  }
 }
 
 // apply the version of the gradle plugin
