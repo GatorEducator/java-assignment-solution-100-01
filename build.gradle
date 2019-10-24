@@ -4,6 +4,7 @@
 // "gradle clean": clean the project of all derived files
 // "gradle build": create the bytecode from the source code
 // "gradle run": run the program and produce output
+// "gradle goJF" : formats the program properly according to Java StyleGuide
 
 buildscript {
   repositories {
@@ -17,9 +18,10 @@ buildscript {
       classpath "gradle.plugin.org.gatored:gatorgradle:+"
     }
   }
-  plugins {
+}
+//
+plugins {
   id 'com.github.sherter.google-java-format' version '0.8'
-  }
 }
 
 // apply the version of the gradle plugin
